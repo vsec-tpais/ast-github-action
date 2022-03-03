@@ -1,7 +1,7 @@
 #!/bin/bash
 
 eval "arr=(${ADDITIONAL_PARAMS})"
-/app/bin/cx --help
+/app/bin/cx scan create --help
 exitCode=$?
 
 echo "Program exits with code: " $exitCode
